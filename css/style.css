@@ -25,10 +25,16 @@ Sostenibilty: #00875A;
 
 .red{
     color: #eb0037;
+    font-weight: bold;
 }
   
 .hidden{
+    
     visibility: hidden;
+}
+
+.no_display{
+    display: none;
 }
 
 .box_container{
