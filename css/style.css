@@ -1,0 +1,86 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Color Palette
+
+Badge: #EB0037;
+Sostenibilty: #00875A;
+
+
+*/
+
+/* Utility */
+
+.bg_red{
+    background-color: #eb0037;
+}
+
+.bg_green{
+    background-color: #00875A;
+}
+
+.red{
+    color: #eb0037;
+}
+  
+.box_container{
+    margin: 20px auto;
+    width: 1000px;
+ 
+}
+
+.container{
+    margin: 0 5px;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.container>img{
+    width: 100%;
+}
+
+img:nth-child(2) {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.container:hover img:nth-child(2){
+    visibility: visible;
+}
+
+.badge{
+    margin-right: 3px;
+    height: 20px;
+    padding: 5px;
+    color: white;
+}
+
+.badges{
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    bottom: 20px;
+    
+}
+
+.like{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top:20px;
+    font-size: 2rem;
+}
