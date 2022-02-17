@@ -27,14 +27,21 @@ Sostenibilty: #00875A;
     color: #eb0037;
 }
   
+.hidden{
+    visibility: hidden;
+}
+
 .box_container{
     margin: 20px auto;
     width: 1000px;
  
 }
 
+.card{
+    display: inline-block;
+    margin: 5px;
+}
 .container{
-    margin: 0 5px;
     width: 300px;
     position: relative;
     display: inline-block;
